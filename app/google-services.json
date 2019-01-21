@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "649801606697",
+    "firebase_url": "https://laundry-5fb1b.firebaseio.com",
+    "project_id": "laundry-5fb1b",
+    "storage_bucket": "laundry-5fb1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649801606697:android:255043ad8f73ca8c",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.laundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649801606697-60nr3vm5v178iddvvl0jb2b0fchvfa58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.laundry",
+            "certificate_hash": "1f1954d4d988fc159a46bcac963308b61ba0023c"
+          }
+        },
+        {
+          "client_id": "649801606697-cd75i05kjv44rkvif67qko7ecjbovsel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3foVTMOhLJaoWhoDc_VKuCZWTUIwiXBk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649801606697-cd75i05kjv44rkvif67qko7ecjbovsel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

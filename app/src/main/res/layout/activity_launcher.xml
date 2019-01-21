@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    tools:context="com.example.lenovo.laundry.launcher">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Happy Eating... Ummm "
+        android:textColor="#41b8f4"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Wait...."
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar_start"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+    />
+
+</RelativeLayout>

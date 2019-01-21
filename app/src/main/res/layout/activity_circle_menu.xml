@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgrnd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".circle_menu">
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="45dp"
+        android:text="     Foodie"
+        android:textColor="@color/fbutton_color_midnight_blue"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="465dp"
+        android:text="People who love to eat are always the best people"
+        android:textColor="#ffff"
+        android:textStyle="bold|italic"
+        android:textSize="16sp" />
+
+</RelativeLayout>
